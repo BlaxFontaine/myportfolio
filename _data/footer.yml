@@ -1,0 +1,9 @@
+- name: GitHub
+  link: https://github.com/BlaxFontaine
+  class: fab fa-github
+- name: LinkedIn
+  link: https://www.linkedin.com/in/val%C3%A9rie-gehl%C3%A9-043453182/
+  class: fab fa-linkedin-in
+- name: Mail
+  link: #
+  class: fas fa-envelope

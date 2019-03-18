@@ -4,10 +4,6 @@ body {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.fab {
-  font-size: 24px;
-}
-
 .title {
   font-family: 'Megrim', cursive;
 }
@@ -20,4 +16,18 @@ a {
 
 .current {
   text-decoration: underline;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+.footer {
+  height: 70px;
 }
