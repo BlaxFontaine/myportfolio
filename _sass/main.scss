@@ -14,6 +14,10 @@ a {
   color: #19F6E8;
 }
 
+nav {
+  font-size: 36px;
+}
+
 .current {
   text-decoration: underline;
 }
@@ -30,4 +34,21 @@ a {
 
 .footer {
   height: 70px;
+}
+
+.main-title {
+
+}
+
+.section-title {
+  font-size: 36px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hide {
+  display: none;
 }
