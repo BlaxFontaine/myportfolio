@@ -5,8 +5,7 @@ body {
 }
 
 a {
-  text-decoration: none !important;
-  color: white;
+  text-decoration: none;
 }
 
 .container {
@@ -32,6 +31,8 @@ a {
   font-family: 'Megrim', cursive;
   font-size: 36px;
   font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 
 .current {
