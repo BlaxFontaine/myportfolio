@@ -2,7 +2,9 @@
   img: assets/images/derby-match-home.png
   description: Derby match is a website developed in two weeks during Le wagon bootcamp. It helps roller derby teams to find other teams to play against and to plan games.
   link: https://youtu.be/HZ87deV1-pY?t=4431
+  delay: 0.2s
 - name: YogaDLC
   img: assets/images/algue.jpg
   description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate odio ipsum necessitatibus doloremque facere tempore voluptatem, reprehenderit at obcaecati eius quibusdam dolorem corrupti iure ut accusamus officia architecto temporibus nesciunt.
   link:
+  delay: 0.3s
