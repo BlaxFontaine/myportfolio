@@ -1,20 +1,24 @@
 ---
 layout: default
 ---
-
-{% for item in site.data.projects %}
-  <div class="card-container">
-    <div class="row scaler" style="animation-delay:{{item.delay}}">
-      <div class="col-sm-12">
-        <p>{{item.name}}</p>
-      </div>
-      <div class="col-sm-12 col-lg-5">
-        <img class="card-image" src="{{item.img}}" alt="">
-      </div>
-      <div class="col-sm-12 col-lg-7">
-        <p class="text">{{item.description}}</p>
-        <a href="{{item.link}}" target="_blank">See demo</a>
+<div class="cards">
+  {% for item in site.data.projects %}
+    <div class="card-container">
+      <div class="row scaler" style="animation-delay:{{item.delay}}">
+        <div class="col-md-5">
+          <div class="card-image">
+            <img class="project-screenshot" src="{{item.img}}" alt="">
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="card-body">
+            <h4>{{item.name}}</h4>
+            <p class="text">{{item.description}}</p>
+            <a href="{{item.link}}" target="_blank">See demo</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>
+
