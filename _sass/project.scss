@@ -3,8 +3,8 @@
   flex-wrap: wrap;
 }
 
-.card-container {
-  // margin-top: 30px;
+.row:hover {
+  border: red;
 }
 
 .row {
@@ -44,3 +44,30 @@
   animation: scaler ease-in-out 1;
   animation-duration: 0.4s;
 }
+
+.link{
+    // display: inline-block;
+    // padding: 5px 20px;
+    // font-size: 20px;
+    color: #fff;
+    // text-transform: uppercase;
+    overflow: hidden;
+    position: relative;
+}
+.link:hover{
+    text-decoration: none;
+  }
+
+.link span{
+    background-image: linear-gradient(to bottom, #0B0C0C 70%, transparent 70%), linear-gradient(to right, #ef5a8c 33%, #fc8db2 33%, #ffadc8 66%, #84dd63 66%);
+    background-size: 306% 100%;
+    background-position: 100% 0;
+    transition: 0.5s background-position;
+    color: #fff;
+}
+.link:hover span {
+  background-position: 0;
+}
+// @media only screen and (max-width: 767px){
+//     .link{ margin-bottom: 20px; }
+// }
