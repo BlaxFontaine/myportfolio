@@ -79,7 +79,13 @@ body {
 
 .me-wrapper {
   height: calc(100vh - 223px);
-  display: flex;
-  align-items: center;
   color: white !important;
+}
+
+.me-wrapper h4 {
+  text-transform: uppercase;
+}
+
+.me-wrapper p {
+  font-size: 18px;
 }
