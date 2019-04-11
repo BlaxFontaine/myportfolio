@@ -5,20 +5,46 @@ title: BLAX FONTAINE | Home
 
 <div class="me-wrapper">
   <div class="profile-section">
-    <h4>Who I am</h4>
-    <p>The first time I have coded was in 2006 on Matlab, as I was in preparatory classes for engineer schools. Since then, programming has kept waving at me (statistics on R in engineer school, projects on VBA an SQL during internships). Today, I am a proud junior dev who just finished Le Wagon intensive FullStack bootcamp! I am driven by great team work and the satisfaction you get after having spent energy on a clean and DRY code that works!</p>
+    <h2>Who I am</h2>
+    <div class="section-card">
+      <p>The first time I have coded was in 2006 on Matlab, as I was in preparatory classes for engineer schools. Since then, programming has kept waving at me (statistics on R in engineer school, projects on VBA an SQL during internships). Today, I am a proud junior dev who just finished Le Wagon intensive FullStack bootcamp! I am driven by great team work and the satisfaction you get after having spent energy on a clean and DRY code that works!</p>
+    </div>
   </div>
-  <div class="profile-section">
-    <h4>Something I am proud of</h4>
+  <!-- <div class="profile-section">
+    <h2>Something I am proud of</h2>
     <p>Having spent a lot of time and energy to build an awesome <a href="https://github.com/BlaxFontaine/derby-match/blob/master/lib/tasks/fts_scrap.rake" class="link" target="_blank"><span>scraper</span></a> on a quite complicated website.</p>
+  </div> -->
+  <div class="profile-section">
+    <h2>Currently looking for a job!</h2>
+    <div class="section-card">
+      <h3>What I want to work on</h3>
+      <p>Projects that make you say "waw!" at the end!</p>
+      <h3>Who I want to work with</h3>
+      <p>Empathic people with who I can share trust, enthusiasm and willingness to be great as a group.</p>
+      <h3>Where I want to work</h3>
+      <p>I am looking for a job in Paris, with the possibility of occasional or part-time remote work.</p>
+    </div>
   </div>
   <div class="profile-section">
-    <h4>Currently looking for a job!</h4>
-    <h3>What I want to work on</h3>
-    <p>Projects that make you say "waw!" at the end!</p>
-    <h3>Who I want to work with</h3>
-    <p>Empathic people with who I can share trust, enthusiasm and willingness to be great as a group.</p>
-    <h3>Where I want to work</h3>
-    <p>I am looking for a job in Paris, with the possibility of occasional or part-time remote work.</p>
+    <h2>Projects</h2>
+    <div class="cards">
+      {% for item in site.data.projects %}
+        <div class="card-container">
+          <div class="row scaler" style="animation-delay:{{item.delay}}">
+            <div class="col-md-5 col-lg-4">
+              <div class="card-image">
+                <img class="project-screenshot" src="{{item.img}}" alt="">
+              </div>
+            </div>
+            <div class="col-md-7 col-lg-8">
+              <div class="card-body">
+                <h3>{{item.name}}</h3>
+                <p class="text">{{item.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </div>

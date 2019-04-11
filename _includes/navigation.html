@@ -1,6 +1,8 @@
   <nav class="wrapper">
       <a href="/" class="main-title">BLAX FONTAINE</a>
-      {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="title current" {% else %} class="title" {% endif %}>{{ item.name }}</a>
-      {% endfor %}
+      {<ul>
+    {% for item in site.data.footer %}
+      <li><a href="{{ item.link }}" target="_blank"><i class="{{ item.class }}"></i></a></li>
+    {% endfor %}
+  </ul>
   </nav>
