@@ -1,6 +1,6 @@
 var w = Math.round($(document).width() / 255);
 var h = Math.round($(document).height() / 255);
-var body = $(".main-title, i, .current, .title");
+var body = $(".main-title, .icon, .current, .title");
 
 $(document).mousemove(function(e){
     var pageX = Math.round(e.pageX / w);
