@@ -3,16 +3,8 @@ body {
   font-family: 'Josefin Sans', sans-serif !important;
 }
 
-.title:hover, .main-title:hover {
-  text-decoration: none;
-}
-
-.main-title, .title {
-  font-family: 'Poiret One', cursive;
-  font-size: 36px;
-  font-weight: bold;
-  position: relative;
-  text-decoration: none;
+nav {
+  margin-top: 30px;
 }
 
 .container {
@@ -20,6 +12,31 @@ body {
   margin: auto;
   text-align: center;
 }
+
+.title:hover, .main-title:hover {
+  text-decoration: none;
+}
+
+.main-title, .title {
+  font-family: 'Poiret One', cursive;
+  text-decoration: none;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  // margin-top: 30px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
 
 // .content {
 //   // min-height: calc(100vh - 70px);
@@ -30,7 +47,7 @@ body {
   justify-content: space-around;
   margin-top: 40px;
   margin-bottom: 60px;
-  align-items: center;
+  align-items: end;
 }
 
 .home-wrapper {

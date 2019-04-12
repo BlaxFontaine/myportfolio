@@ -1,2 +1,6 @@
-- name: Projects
-  link: /projects.html
+- name: Who I am
+  link: me
+- name: My job
+  link: job
+- name: My projects
+  link: projects
