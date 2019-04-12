@@ -1,6 +1,5 @@
 body {
   background-color: #131415 !important;
-  // color: white !important;
   font-family: 'Josefin Sans', sans-serif !important;
 }
 
@@ -16,19 +15,15 @@ body {
   text-decoration: none;
 }
 
-.current {
-  border-bottom: 2px solid;
-}
-
 .container {
   max-width: 1140px;
   margin: auto;
   text-align: center;
 }
 
-.content {
-  // min-height: calc(100vh - 70px);
-}
+// .content {
+//   // min-height: calc(100vh - 70px);
+// }
 
 .wrapper {
   display: flex;
