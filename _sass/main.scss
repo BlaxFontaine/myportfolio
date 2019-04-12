@@ -5,6 +5,15 @@ body {
 
 nav {
   margin-top: 30px;
+  position:sticky;
+  top: 0px;
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+  z-index: 1000;
+}
+
+.nav-black {
+  background-color: #0B0C0C;
 }
 
 .container {

@@ -1,3 +1,14 @@
+const initUpdateNavbarOnScroll = () => {
+  const navbar = document.querySelector('.navigation');
+  if (navbar) {
+    window.addEventListener('scroll', () => {
+        navbar.classList.add('nav-black');
+    });
+  }
+}
+
+initUpdateNavbarOnScroll();
+
 var w = Math.round($(document).width() / 255);
 var h = Math.round($(document).height() / 255);
 var body = $(".main-title, .icon, .current, .title");
