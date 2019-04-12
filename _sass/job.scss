@@ -82,19 +82,19 @@
 .job-card .job-text {
    width: 80%;
    margin: 0 auto;
-   font-size: 13px;
+   font-size: 18px;
    text-align: center;
    margin-top: 20px;
    color: white;
-   font-weight: 200;
-   letter-spacing: 2px;
+   // font-weight: 200;
+   // letter-spacing: 2px;
    opacity: 0;
    max-height:0;
    transition: all 0.3s ease;
 }
 
 .job-card:hover {
-   height: 300px;
+   height: 350px;
 }
 
 .job-card:hover .info{
