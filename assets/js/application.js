@@ -26,6 +26,7 @@ $(function() {
     * Smooth scrolling to page anchor on click
     **/
   $("a[href*='#']:not([href='#'])").click(function() {
+    event.preventDefault();
     if (
       location.hostname == this.hostname
       && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
