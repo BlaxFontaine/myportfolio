@@ -1,0 +1,25 @@
+nav {
+  position:sticky !important;
+  top: 0px;
+  background-color: transparent;
+  transition: 0.5s background-color ease;
+  z-index: 1000;
+}
+
+.nav-black {
+  background-color: #0B0C0C;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  align-items: end;
+}
