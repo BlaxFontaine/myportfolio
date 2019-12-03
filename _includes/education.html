@@ -1,0 +1,13 @@
+<h2 id="education" class="jump">Education</h2>
+{% for item in site.data.education %}
+  <div class="edu">
+    <div class="year">
+      <p>{{item.year}}</p>
+    </div>
+    <div class="edu-content">
+      <p>{{item.title}}</p>
+      <p><small>{{item.place}}</small></p>
+      <p>{{item.content}}</p>
+    </div>
+  </div>
+{% endfor %}
