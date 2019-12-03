@@ -2,7 +2,11 @@ const initUpdateNavbarOnScroll = () => {
   const navbar = document.querySelector('.navbar');
   if (navbar) {
     window.addEventListener('scroll', () => {
+        if (window.scrollY > 0) {
         navbar.classList.add('nav-black');
+      } else {
+        navbar.classList.remove('nav-black');
+      }
     });
   }
 }
