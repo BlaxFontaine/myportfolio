@@ -3,8 +3,8 @@
   flex-wrap: wrap;
 }
 
-.row:hover {
-  border: red;
+.scaler:hover {
+  transform: scale(1.01);
 }
 
 .row {
