@@ -1,0 +1,32 @@
+- name: Ruby
+  img: assets/images/thumb_ruby.png
+- name: Rails
+  img: assets/images/thumb_ruby-on-rails.png
+- name: HTML5
+  img: assets/images/thumb_html5.png
+- name: PostGreSQL
+  img: assets/images/thumb_postgresql.png
+- name: Webpack
+  img: assets/images/thumb_webpack.png
+- name: Jekyll
+  img: assets/images/thumb_jekyll.jpeg
+- nmae: JS / ES6
+  img: assets/images/thumb_javascript.jpeg
+- name: CSS / SASS
+  img: assets/images/thumb_css3.png
+- name: Bootstrap
+  img: assets/images/thum_bootstrap.png
+- name: React
+  img: assets/images/thumb_react.png
+- name: Git
+  img: assets/images/thumb_git.png
+- name: Github
+  img: assets/images/thumb_github.png
+- name: Heroku
+  img: assets/images/thumb_heroku.png
+- name: Cloudinary
+  img: assets/images/thumb_cloudinary.png
+- name: Slack
+  img: assets/images/thumb_slack.png
+- name: Trello
+  img: assets/images/thumb_trello.png
