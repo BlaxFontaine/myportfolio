@@ -15,7 +15,7 @@ initUpdateNavbarOnScroll();
 
 var w = Math.round($(document).width() / 255);
 var h = Math.round($(document).height() / 255);
-var body = $(".navbar-brand, .nav-item, .navbar-toggler-icon");
+var body = $(".navbar-brand, .nav-item, .navbar-toggler-icon, .footer-link");
 
 $(document).mousemove(function(e){
     var pageX = Math.round(e.pageX / w);
