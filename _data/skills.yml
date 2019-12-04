@@ -10,12 +10,12 @@
   img: assets/images/thumb_webpack.png
 - name: Jekyll
   img: assets/images/thumb_jekyll.jpeg
-- nmae: JS / ES6
+- name: JS / ES6
   img: assets/images/thumb_javascript.jpeg
 - name: CSS / SASS
   img: assets/images/thumb_css3.png
 - name: Bootstrap
-  img: assets/images/thum_bootstrap.png
+  img: assets/images/thumb_bootstrap.png
 - name: React
   img: assets/images/thumb_react.png
 - name: Git

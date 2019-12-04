@@ -1,7 +1,9 @@
 <h2 id="skills" class="jump">Skills</h2>
 <div class="skills-container">
+  {% for item in site.data.skills %}
   <div class="skill-content">
-    <img src="" alt="" class="skill-img">
-    <p class="skill-text"></p>
+    <img src="{{item.img}}" alt="" class="skill-img">
+    <p class="skill-text">{{item.name}}</p>
   </div>
+  {% endfor %}
 </div>
