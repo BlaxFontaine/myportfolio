@@ -42,12 +42,12 @@ body {
   display: none;
 }
 
-.jump::before {
-  content: "";
-  display: block;
-  height: 180px; /* fixed header height*/
-  margin: -180px 0 0; /* negative fixed header height */
-}
+// .jump::before {
+//   content: "";
+//   display: block;
+//   height: 180px; /* fixed header height*/
+//   margin: -180px 0 0; /* negative fixed header height */
+// }
 
 .me-wrapper {
   padding: 20px 0 20px 0;
@@ -72,6 +72,7 @@ body {
 
 .profile-section {
   margin-top: 50px;
+  padding-top: 60px;
 }
 
 
