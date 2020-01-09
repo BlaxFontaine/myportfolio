@@ -1,13 +1,13 @@
 nav {
   position:sticky !important;
   top: 0px;
-  background-color: transparent;
-  transition: 0.5s background-color ease;
+  background-color: #0B0C0C;
   z-index: 1000;
 }
 
-.nav-black {
-  background-color: #0B0C0C;
+.nav-item {
+  padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
 }
 
 .navigation {
