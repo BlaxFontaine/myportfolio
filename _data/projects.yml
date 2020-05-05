@@ -1,19 +1,19 @@
 - name: KRAKEN BLOG
-  img: assets/images/derbysquad.png
+  img: assets/images/screenshot_kraken.png
   description: KRAKEN BLOG is a web app allowing members to post short messages and follow other members. Project realised in a team of 2.
   tech: MERN stack (MongoDB, Express, React JS, Node.js), Bootstrap, Git, GitHub, Trello
   url:
   github:
   delay: 0.2s
 - name: CATOYS
-  img: assets/images/derbysquad.png
+  img: assets/images/screenshot_catoys.png
   description: CATOYS is an online shop with toys for cats.
   tech: MongoDB, Express, Node.js, Bootstrap, Git, GitHub, Trello
-  url:
-  github:
+  url: https://catoys.herokuapp.com/
+  github: https://github.com/BlaxFontaine/CATOYS
   delay: 0.3s
 - name: Anmesia
-  img: assets/images/derbysquad.png
+  img: assets/images/screenshot_amnesia.png
   description: Amnesia is a web app for people who want to create and share movie lists. Project realised in a team of 2.
   tech: PHP7, Symfony4, The Movie Database API, Bootstrap, Git, GitHub, Trello
   url:
