@@ -3,7 +3,7 @@
   description: KRAKEN BLOG is a web app allowing members to post short messages and follow other members. Project realised in a team of 2.
   tech: MERN stack (MongoDB, Express, React JS, Node.js), Bootstrap, Git, GitHub, Trello
   url:
-  github:
+  github: https://github.com/BlaxFontaine/KrakenBlog
   delay: 0.2s
 - name: CATOYS
   img: assets/images/screenshot_catoys.png
@@ -12,24 +12,24 @@
   url: https://catoys.herokuapp.com/
   github: https://github.com/BlaxFontaine/CATOYS
   delay: 0.3s
-- name: Anmesia
+- name: Amnesia
   img: assets/images/screenshot_amnesia.png
   description: Amnesia is a web app for people who want to create and share movie lists. Project realised in a team of 2.
   tech: PHP7, Symfony4, The Movie Database API, Bootstrap, Git, GitHub, Trello
   url:
-  github:
+  github: https://github.com/Jean-ChristopheGdn/my_movie_list
   delay: 0.4s
 - name: DerbySquad
   img: assets/images/derbysquad.png
   description: Website displaying all the roller derby leagues in the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate odio ipsum necessitatibus.
   tech: Ruby on Rails, React, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary, Trello
   url:
-  github:
+  github: https://github.com/BlaxFontaine/derbysquad
   delay: 0.5s
 - name: DERBY MATCH
   img: assets/images/derby-match-home.png
   description: <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Derby match</span></a> is a website developed in two weeks during Le wagon bootcamp. It helps <a href="https://www.youtube.com/watch?list=PLgt96IetJvxItxb-jrDjDb6r_DQKgQ70l&v=OId6gTd2LCM" class="link" target="_blank"><span>roller derby</span></a> teams to find other teams to play against and to plan games.
   tech: Ruby on Rails, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary
   url:
-  github:
+  github: https://github.com/Maxlafitte/derby-match
   delay: 0.6s
