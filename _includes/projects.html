@@ -1,28 +1,27 @@
 <h2>Projects</h2>
-<div class="cards">
 
-  {% for item in site.data.projects %}
-  
-    <div class="row scaler w-100" style="animation-delay:{{item.delay}}">
-      <div class="col-md-5 col-lg-4">
-        <div class="card-image">
-          <img class="project-screenshot" src="{{item.img}}" alt="">
-        </div>
+{% for item in site.data.projects %}
+  <div class="card mb-3 w-100">
+    <div class="row scaler no-gutters" style="animation-delay:{{item.delay}}">
+      <div class="col-md-5 vertical-img">
+        <img src="{{item.img}}" class="card-img" alt="...">
       </div>
-      <div class="col-md-7 col-lg-8">
-        <div class="card-body">
-          <h3>{{item.name}}</h3>
+      <div class="col-md-7">
+        <div class="card-body left">
+          <h4 class="card-title text-muted">{{item.name}}</h4>
           <p class="card-text">{{item.description}}</p>
-          <p class="card-tech">Tech: {{item.tech}}</p>
+          <p class="card-text text-muted">CONTEXT: {{item.context}}</p>
+          <p class="card-text">TECH: {{item.tech}}</p>
           <p>
             <a href="{{item.github}}" class="link" target="_blank"><span>See on github</span></a>
             {% if item.url %}
             <a href="{{item.url}}" class="link" target="_blank" style="margin-left: 3em;"><span>Visit online</span></a>
+            {% else %}
+            <span class="text-muted" style="margin-left: 3em; font-style: italic;"><small>not online yet</small></span>
             {% endif %}
           </p>
         </div>
       </div>
     </div>
-
-  {% endfor %}
-</div>
+  </div>
+{% endfor %}

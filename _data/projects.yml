@@ -1,6 +1,7 @@
 - name: KRAKEN BLOG
   img: assets/images/screenshot_kraken.png
-  description: KRAKEN BLOG is a web app allowing members to post short messages and follow other members. Project realised in a team of 2.
+  description: KRAKEN BLOG is a web app allowing members to post short messages and follow other members.
+  context:  Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp.
   tech: MERN stack (MongoDB, Express, React JS, Node.js), Bootstrap, Git, GitHub, Trello
   url:
   github: https://github.com/BlaxFontaine/KrakenBlog
@@ -8,27 +9,31 @@
 - name: CATOYS
   img: assets/images/screenshot_catoys.png
   description: CATOYS is an online shop with toys for cats.
+  context: Project realised by me as part of EPITECH Code & Go's bootcamp.
   tech: MongoDB, Express, Node.js, Bootstrap, Git, GitHub, Trello
   url: https://catoys.herokuapp.com/
   github: https://github.com/BlaxFontaine/CATOYS
   delay: 0.3s
 - name: Amnesia
   img: assets/images/screenshot_amnesia.png
-  description: Amnesia is a web app for people who want to create and share movie lists. Project realised in a team of 2.
+  description: Amnesia is a web app for people who want to create and share movie lists.
+  context: Project developed in a team of 2 as part of EPITECH Code & Go's bootcamp.
   tech: PHP7, Symfony4, The Movie Database API, Bootstrap, Git, GitHub, Trello
   url:
   github: https://github.com/Jean-ChristopheGdn/my_movie_list
   delay: 0.4s
 - name: DerbySquad
   img: assets/images/derbysquad.png
-  description: Website displaying all the roller derby leagues in the world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate odio ipsum necessitatibus.
+  description: Website displaying all the roller derby leagues in the world.
+  context: Personal project developed on my own.
   tech: Ruby on Rails, React, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary, Trello
   url:
   github: https://github.com/BlaxFontaine/derbysquad
   delay: 0.5s
 - name: DERBY MATCH
   img: assets/images/derby-match-home.png
-  description: <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Derby match</span></a> is a website developed in two weeks during Le wagon bootcamp. It helps <a href="https://www.youtube.com/watch?list=PLgt96IetJvxItxb-jrDjDb6r_DQKgQ70l&v=OId6gTd2LCM" class="link" target="_blank"><span>roller derby</span></a> teams to find other teams to play against and to plan games.
+  description: DERBY MATCH is a website developed that helps roller derby teams to find other teams and plan games. <a href="https://youtu.be/HZ87deV1-pY?t=4431" class="link" target="_blank"><span>Watch video presentation</span></a>
+  context: Project developed in a team of 4 as part of Le Wagon bootcamp.
   tech: Ruby on Rails, Webpack, PostGreSQL, Bootstrap, Git, GitHub, Cloudinary
   url:
   github: https://github.com/Maxlafitte/derby-match
