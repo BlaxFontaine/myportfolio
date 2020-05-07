@@ -1,9 +1,9 @@
 <h2>Skills</h2>
-<div class="row row-cols-1 row-cols-md-3" style="background-color: transparent !important">
+<div class="card-columns" style="background-color: transparent !important">
   {% for item in site.data.skills %}
-  <div class="col mb-4">
-    <div class="card text-white mb-3 h-100" style="max-width: 18rem;">
-      <div class="card-header">{{item.title}}</div>
+  <div>
+    <div class="card text-white h-100">
+      <div class="card-header border-dark">{{item.title}}</div>
       <div class="card-body">
         {% for skill in item.skills %}
           <p><img class="icon" src="{{skill.icon}}"> {{skill.name}}</p>
