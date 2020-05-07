@@ -1,32 +1,60 @@
-- name: Ruby
-  img: assets/images/thumb_ruby.png
-- name: Rails
-  img: assets/images/thumb_ruby-on-rails.png
-- name: HTML5
-  img: assets/images/thumb_html5.png
-- name: PostGreSQL
-  img: assets/images/thumb_postgresql.png
-- name: Webpack
-  img: assets/images/thumb_webpack.png
-- name: Jekyll
-  img: assets/images/thumb_jekyll.jpeg
-- name: JS / ES6
-  img: assets/images/thumb_javascript.jpeg
-- name: CSS / SASS
-  img: assets/images/thumb_css3.png
-- name: Bootstrap
-  img: assets/images/thumb_bootstrap.png
-- name: React
-  img: assets/images/thumb_react.png
-- name: Git
-  img: assets/images/thumb_git.png
-- name: Github
-  img: assets/images/thumb_github.png
-- name: Heroku
-  img: assets/images/thumb_heroku.png
-- name: Cloudinary
-  img: assets/images/thumb_cloudinary.png
-- name: Slack
-  img: assets/images/thumb_slack.png
-- name: Trello
-  img: assets/images/thumb_trello.png
+- title: BACK END
+  skills:
+  - icon: assets/images/icon_ruby.png
+    name: Ruby
+  - icon: assets/images/icon_rails.png
+    name: Rails
+  - icon: assets/images/icon_php.png
+    name: PHP7
+  - icon: assets/images/icon_symfony.png
+    name: Symfony4
+  - icon: assets/images/icon_c.png
+    name: C
+  - icon: assets/images/icon_python.png
+    name: Python
+  - icon: assets/images/icon_flask.png
+    name: Flask
+  - icon: assets/images/icon_express.png
+    name: Express
+  - icon: assets/images/icon_node.png
+    name: NodeJS
+  - icon: assets/images/icon_mongoose.png
+    name: Mongoose
+- title: DATABASE
+  skills:
+  - icon: assets/images/icon_postgresql.png
+    name: PostgreSQL
+  - icon: assets/images/icon_mysql.png
+    name: MySQL/MariaDB
+  - icon: assets/images/icon_mongodb.png
+    name: MongoDB
+- title: FRONT END
+  skills:
+  - icon: assets/images/icon_html.png
+    name: HTML5
+  - icon: assets/images/icon_css.png
+    name: CSS / SASS
+  - icon: assets/images/icon_bootstrap.png
+    name: Bootstrap
+  - icon: assets/images/icon_js.png
+    name: JS / ES6
+  - icon: assets/images/icon_webpack.png
+    name: Webpack
+  - icon: assets/images/icon_react.png
+    name: React JS
+  - icon: assets/images/icon_figma.png
+    name: Figma
+- title: MISCELLANEOUS
+  skills:
+  - icon: assets/images/icon_git.png
+    name: Git
+  - icon: assets/images/icon_github.png
+    name: Github
+  - icon: assets/images/icon_heroku.png
+    name: Heroku
+  - icon: assets/images/icon_cloudinary.png
+    name: Cloudinary
+  - icon: assets/images/icon_slack.png
+    name: Slack
+  - icon: assets/images/icon_trello.png
+    name: Trello

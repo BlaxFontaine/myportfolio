@@ -1,57 +1,15 @@
 <h2>Skills</h2>
 <div class="row row-cols-1 row-cols-md-3" style="background-color: transparent !important">
+  {% for item in site.data.skills %}
   <div class="col mb-4">
     <div class="card text-white mb-3 h-100" style="max-width: 18rem;">
-      <div class="card-header">BACK END</div>
+      <div class="card-header">{{item.title}}</div>
       <div class="card-body">
-          <p><img class="icon" src="assets/images/icon_ruby.png"> Ruby</p>
-          <p><img class="icon" src="assets/images/icon_rails.png"> Rails</p>
-          <p><img class="icon" src="assets/images/icon_php.png"> PHP7</p>
-          <p><img class="icon" src="assets/images/icon_symfony.png"> Symfony4</p>
-          <p><img class="icon" src="assets/images/icon_c.png"> C</p>
-          <p><img class="icon" src="assets/images/icon_python.png"> Pyhton</p>
-          <p><img class="icon" src="assets/images/icon_flask.png"> Flask</p>
-          <p><img class="icon" src="assets/images/icon_express.png"> Express</p>
-          <p><img class="icon" src="assets/images/icon_node.png"> NodeJS</p>
-          <p><img class="icon" src="assets/images/icon_mongoose.png"> Mongoose</p>
+        {% for skill in item.skills %}
+          <p><img class="icon" src="{{skill.icon}}"> {{skill.name}}</p>
+        {% endfor %}
       </div>
     </div>
   </div>
-  <div class="col mb-4">
-    <div class="card text-white mb-3 h-100" style="max-width: 18rem;">
-      <div class="card-header">DATABASE</div>
-      <div class="card-body">
-        <p><img class="icon" src="assets/images/icon_postgresql.png"> PostgreSQL</p>
-        <p><img class="icon" src="assets/images/icon_mysql.png"> MySQL/MariaDB</p>
-        <p><img class="icon" src="assets/images/icon_mongodb.png"> mongoDB</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card text-white mb-3 h-100" style="max-width: 18rem;">
-      <div class="card-header">FRONT END</div>
-      <div class="card-body">
-        <p><img class="icon" src="assets/images/icon_html.png"> HTML5</p>
-        <p><img class="icon" src="assets/images/icon_css.png"> CSS / SASS</p>
-        <p><img class="icon" src="assets/images/icon_bootstrap.png"> Bootstrap</p>
-        <p><img class="icon" src="assets/images/icon_js.png"> JS / ES6</p>
-        <p><img class="icon" src="assets/images/icon_webpack.png"> Webpack</p>
-        <p><img class="icon" src="assets/images/icon_react.png"> React JS</p>
-        <p><img class="icon" src="assets/images/icon_figma.png"> Figma</p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card text-white mb-3 h-100" style="max-width: 18rem;">
-      <div class="card-header">MISCELLANEOUS</div>
-      <div class="card-body">
-        <p><img class="icon" src="assets/images/icon_git.png"> Git</p>
-        <p><img class="icon" src="assets/images/icon_github.png"> Github</p>
-        <p><img class="icon" src="assets/images/icon_heroku.png"> Heroku</p>
-        <p><img class="icon" src="assets/images/icon_cloudinary.png"> Cloudinary</p>
-        <p><img class="icon" src="assets/images/icon_slack.png"> Slack</p>
-        <p><img class="icon" src="assets/images/icon_trello.png"> Trello</p>
-      </div>
-    </div>
-  </div>
+  {% endfor %}
 </div>
